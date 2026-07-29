@@ -2,7 +2,7 @@
 
 My name is Lida. Welcome to my page!
 
-[CV_rus](./cv_florenskaia_lk.pdf)
+[CV_DE](./резюме_DE.pdf)
 
 <!--
 **florenskaial118/florenskaial118** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
