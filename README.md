@@ -1,15 +1,21 @@
 # 👋 Привет! Я Лида
 
-**Инженер данных** 
-
-**Образование:** МФТИ ФБМФ, бакалавриат и магистратура по направлению «Прикладная математика и физика» 
+**Data Scientist** · МФТИ ФБМФ, «Прикладная математика и физика» (2021–2027)
 
 ---
 
 ### Мой стек
 
-**Инженерия данных:**
+**Моделирование:**
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
+![pandas](https://img.shields.io/badge/pandas-150458?style=flat&logo=pandas&logoColor=white)
+![NumPy](https://img.shields.io/badge/NumPy-013243?style=flat&logo=numpy&logoColor=white)
+![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=flat&logo=scikit-learn&logoColor=white)
+![CatBoost](https://img.shields.io/badge/CatBoost-FFCC00?style=flat&logo=catboost&logoColor=black)
+![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat&logo=pytorch&logoColor=white)
+![R](https://img.shields.io/badge/R-276DC3?style=flat&logo=r&logoColor=white)
+
+**Инженерия данных:**
 ![Airflow](https://img.shields.io/badge/Airflow-017CEE?style=flat&logo=apache-airflow&logoColor=white)
 ![Spark](https://img.shields.io/badge/Spark-E25A1C?style=flat&logo=apache-spark&logoColor=white)
 ![ClickHouse](https://img.shields.io/badge/ClickHouse-FFCC01?style=flat&logo=clickhouse&logoColor=black)
@@ -29,9 +35,8 @@
 
 | Проект | Описание | Стек |
 |--------|----------|------|
+| [**Отбор клиентов для телефонной продажи депозита**](https://github.com/florenskaial118/bank-deposit-profit) | Логистическая регрессия решает, кому звонить: звонок стоит $2, депозит приносит $10. Порог подобран по прибыли (≈ 0.2), прибыль на кросс-валидации выросла с $1 500 до $2 700 на фолд (парный t-критерий, p = 0.001). | Python, pandas, scikit-learn |
 | [**JSONPlaceholder ETL**](https://github.com/florenskaial118/JSONPlaceholder-ETL) | End-to-end ETL-пайплайн: загрузка из API, трансформация в Spark, витрина в ClickHouse, оркестрация в Airflow | Airflow, Spark, ClickHouse, HDFS, Docker |
-
-*Больше проектов — в процессе* 🚀
 
 ---
 
@@ -43,14 +48,16 @@
 
 ---
 
-📄 [Резюме](./резюме_DE.pdf)
+📄 [Резюме](./резюме_DS.pdf)
 
 ---
 
 ### 🧬 Немного о другом
 
-Параллельно занимаюсь **биоинформатикой**: анализ NGS-данных, метагеномика, статистическая обработка генетических данных. 
+Параллельно занимаюсь **биоинформатикой**: анализ NGS-данных, метагеномика, статистическая обработка генетических данных.
 
-**Дипломная работа:** сравнение генов патогенности в метагеномах при клинической депрессии.
+**Бакалаврская дипломная работа:** сравнение генов патогенности в метагеномах при клинической депрессии — [репозиторий](https://github.com/florenskaial118/Metagenomics)
 
-Обучаюсь по гранту от ООО «Биотек кампус» (БТК).
+**Магистерская дипломная работа:** древние микроорганизмы группы HACEK — скорость эволюции, время корня, число замен и рекомбинация — [текущая версия](https://github.com/florenskaial118/MASTER_DIPLOMA)
+
+Обучаюсь по гранту от ООО «Биотек кампус» (БТК) по программе «Алгоритмическая биология» — [конспекты 1 курса](https://github.com/florenskaial118/Alg_Bio_book)
