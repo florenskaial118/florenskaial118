@@ -35,7 +35,7 @@
 
 | Проект | Описание | Стек |
 |--------|----------|------|
-| [**Отбор клиентов для телефонной продажи депозита**](https://github.com/florenskaial118/bank-deposit-profit) | Логистическая регрессия решает, кому звонить: звонок стоит $2, депозит приносит $10. Порог подобран по прибыли (≈ 0.2), прибыль на кросс-валидации выросла с $1 500 до $2 700 на фолд (парный t-критерий, p = 0.001). | Python, pandas, scikit-learn |
+| [**Кому звонить: ML-пайплайн для банковской кампании**](https://github.com/florenskaial118/bank-deposit-profit-ml) | End-to-end ML-пайплайн: Airflow DAG (extract → ODS → mart → train), OOF-валидация на 5 фолдах, подбор порога под бизнес-метрику `profit = 10·TP − 2·calls`. Сравнение logreg vs random forest: прибыль 2786 ± 116 $ vs 2936 ± 127 $ — разница в пределах разброса, в прод идёт logreg (интерпретируемость + устойчивость к выбору `C`). | Python, scikit-learn, pandas, Airflow, PostgreSQL, Docker |
 | [**JSONPlaceholder ETL**](https://github.com/florenskaial118/JSONPlaceholder-ETL) | End-to-end ETL-пайплайн: загрузка из API, трансформация в Spark, витрина в ClickHouse, оркестрация в Airflow | Airflow, Spark, ClickHouse, HDFS, Docker |
 
 ---
